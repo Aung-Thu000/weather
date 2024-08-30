@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+  
+    <script src="jquery.js"></script>
+
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      
+    />
+    </head>
+  <body >
+    <div class="container">
+        <h1>Weather</h1>
+      
+      <div class="selected">
+        <label>Select City:</label>
+       
+        <select class="select-city">          
+          <option value="Yangon">Yangon</option>
+          <option value="Naypyidaw">Nay Pyi Daw</option>
+          <option value="Dawei">Dawei</option>
+          <option value="pyinoolwin">Pyin OO Lwin</option>
+          <option value="Taunggyi">Taung Gyi</option>
+          <option value="lashio">Lashio</option>
+          <option value="myitkyina">Myitkyina</option>
+          <option value="Mandalay">Mandalay</option>
+         
+        </select>
+      </div>
+      
+      <div class="city"></div>
+      <div><img  class="icon" src=""  alt=""></div>
+      
+          <div class="weather">
+          
+          
+          </div>
+
+             
+          <div class="condition"> 
+            
+            <div> <p>Temperater</p>
+              <i class="fa-solid fa-temperature-half"></i>           
+            <span class="temp"></span>
+          </div>
+            
+            <div><p>Wind Speed </p> 
+              <i class="fa-solid fa-wind"></i>          
+            <span class="wind-speed"></span>
+          </div>
+          <div><p>Humidity </p>       
+            <i class="fa-solid fa-water"></i>
+            <span class="humidity"></span>
+          </div>
+          <div> 
+              <p>Pressure</p> 
+              <i class="fa-solid fa-hurricane"></i>              
+            <span class="pressure"></span>                       
+          </div>
+        </div>
+       
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
